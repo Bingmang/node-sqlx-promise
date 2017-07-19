@@ -1,0 +1,40 @@
+{
+  "name": "sqlx-promise",
+  "version": "0.0.1",
+  "description": "database driver with extended features like mysql changelog/oplog, connection auto release.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover --dir .cov _mocha test; echo .cov/lcov-report/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bingmang/node-sqlx-promise.git"
+  },
+  "keywords": [
+    "mysql",
+    "changelog",
+    "oplog",
+    "connection",
+    "auto",
+    "release",
+    "promise"
+  ],
+  "author": "bingmang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bingmang/node-sqlx-promise/issues"
+  },
+  "homepage": "https://github.com/bingmang/node-sqlx-promise#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "debug": "^2.2.0",
+    "mongo-sql": "^2.7.5",
+    "mysql": "^2.11.1"
+  },
+  "devDependencies": {
+    "lodash": "^4.15.0"
+  }
+}
