@@ -19,9 +19,7 @@ it('basic', function(done) {
       n_called++
       callback(null, this.x)
     },
-  }).catch((err) => {
-      assert(err)
-    })
+  })
 
 
   var n_called = 0
@@ -51,9 +49,7 @@ it('no initialize', function(done) {
       n_called++
       callback(null, this.x)
     },
-  }).catch((err) => {
-      assert(err)
-    })
+  })
 
 
   var n_called = 0

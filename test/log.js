@@ -8,9 +8,7 @@ it('log', function(done) {
     insert: function (table, sets, callback) { callback() },
     update: function (table, sets, where, callback) { callback() },
     queryReadonly: function (query_str, values, callback) { callback() },
-  }).catch((err) => {
-      assert(err)
-    })
+  })
 
   var operator_info = {
     user: '101,23',
